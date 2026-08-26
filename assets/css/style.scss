@@ -3,32 +3,10 @@
 
 @import "{{ site.theme }}";
 
-.page-wrapper {
+.no-downloads ul {
   display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.toc-sidebar {
-  width: 220px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 20px;
-}
-
-.main-content {
-  flex: 1;
-  min-width: 0;
-}
-
-@media (max-width: 800px) {
-  .page-wrapper {
-    display: block;
-  }
-
-  .toc-sidebar {
-    position: static;
-    width: auto;
-    margin-bottom: 2rem;
-  }
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
