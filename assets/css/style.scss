@@ -9,7 +9,7 @@
 
 #no-downloads ul {
   position: absolute;
-  bottom: 34px;
+  bottom: 32px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -20,7 +20,7 @@
 }
 
 #no-downloads em {
-    font: bold italic 12px / 1 Georgia, Times, “Times New Roman”, serif;
+    font: bold italic 16px / 1 Georgia, Times, “Times New Roman”, serif;
     color: #83b7da;
     display: block;
 }
