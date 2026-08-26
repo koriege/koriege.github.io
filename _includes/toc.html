@@ -6,17 +6,25 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const toc = document.querySelector("#toc ul");
-  const headings = document.querySelectorAll(
-    ".page-content h2, .page-content h3, .page-content h4"
-  );
+  const main = document.querySelector(".main-content");
+
+  if (!toc || !main) return;
+
+  const headings = main.querySelectorAll("h2, h3, h4");
 
   headings.forEach(function (heading) {
-    if (!heading.id) return;
+    const id = heading.id || heading.textContent
+      .toLowerCase()
+      .trim()
+      .replace(/[^\w\s-]/g, "")
+      .replace(/\s+/g, "-");
+
+    heading.id = id;
 
     const li = document.createElement("li");
     const a = document.createElement("a");
 
-    a.href = "#" + heading.id;
+    a.href = "#" + id;
     a.textContent = heading.textContent;
 
     li.appendChild(a);
