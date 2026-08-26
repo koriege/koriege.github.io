@@ -28,6 +28,7 @@
     font: bold italic 16px / 1 Georgia, Times, “Times New Roman”, serif;
     color: #83b7da;
     display: block;
+    text-decoration: none;
 }
 
 .header-level-1 {
@@ -40,7 +41,7 @@
   padding-bottom: 10px
 }
 
-a:hover {
+a {
   text-decoration: none;
 }
 
