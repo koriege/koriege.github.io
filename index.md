@@ -6,4 +6,4 @@ greetings
 
 planet
 
-[Dates]({{ "/dates/" | relative_url }})
+[Dates](dates.md)
