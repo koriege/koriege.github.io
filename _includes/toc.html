@@ -1,0 +1,26 @@
+<nav id="toc" class="toc">
+  <h2>Contents</h2>
+  <ul></ul>
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector("#toc ul");
+  const headings = document.querySelectorAll(
+    ".page-content h2, .page-content h3, .page-content h4"
+  );
+
+  headings.forEach(function (heading) {
+    if (!heading.id) return;
+
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+
+    a.href = "#" + heading.id;
+    a.textContent = heading.textContent;
+
+    li.appendChild(a);
+    toc.appendChild(li);
+  });
+});
+</script>
