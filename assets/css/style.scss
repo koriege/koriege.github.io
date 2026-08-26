@@ -19,6 +19,11 @@
   margin: 0;
 }
 
+#no-downloads li {
+  padding-left: 20px;
+  background: transparent url(../images/chevron-2x.png) left 5px no-repeat;
+}
+
 #no-downloads a {
     font: bold italic 16px / 1 Georgia, Times, “Times New Roman”, serif;
     color: #83b7da;
