@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.no-downloads ul {
+#no-downloads ul {
   display: flex;
   gap: 20px;
   list-style: none;
