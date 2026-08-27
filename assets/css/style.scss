@@ -14,7 +14,7 @@ header h1 a:hover {
     text-decoration: none;
 }
 
-#navigation ul {
+#no-downloads ul {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -26,18 +26,18 @@ header h1 a:hover {
   margin: 0;
 }
 
-#navigation li {
+#no-downloads li {
   padding-left: 10px;
   background: transparent url(../images/chevron.png) left 3px no-repeat;
 }
 
-#navigation a {
+#no-downloads a {
     font: bold italic 16px / 1 Georgia, Times, "Times New Roman", serif;
     color: #83b7da;
     display: block;
 }
 
-#navigation a:hover {
+#no-downloads a:hover {
     color: #ece4d8;
     text-decoration: none;
 }
