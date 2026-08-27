@@ -16,7 +16,7 @@ header h1 a:hover {
 
 #no-downloads ul {
   position: absolute;
-  bottom: 40px;
+  bottom: 36px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -28,11 +28,11 @@ header h1 a:hover {
 
 #no-downloads li {
   padding-left: 10px;
-  background: transparent url(../images/chevron.png) left 2px no-repeat;
+  background: transparent url(../images/chevron.png) left 4px no-repeat;
 }
 
 #no-downloads a {
-    font: bold italic 18px / 1 Georgia, Times, "Times New Roman", serif;
+    font: bold italic 20px / 1 Georgia, Times, "Times New Roman", serif;
     color: #83b7da;
     display: block;
 }
