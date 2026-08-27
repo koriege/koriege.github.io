@@ -1,12 +1,10 @@
 <p class="navigation"><a href=/index.html>Index</a></p>
 <p class="navigation"><a href=/dates.html>Dates</a></p>
 
-# Hello
+# Willkommen
 
-greetings
+Text
 
-## World
+## Gentle Swing of Live
 
-planet
-
-
+Text
