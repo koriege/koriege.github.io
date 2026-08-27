@@ -76,12 +76,26 @@ body {
   text-decoration: none;
 }
 
-// footer span.left-tail, footer span.right-tail {
-//   width: 23px;
-//   height: 126px;
-//   background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
-//   top: -126px;
-// }
+footer span.left-tail, footer span.right-tail {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 29px;
+    background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
+    position: absolute;
+    bottom: 5px;
+    z-index: 0;
+}
+
+footer span.left-tail {
+    background-position: 0 0;
+    left: -11px;
+}
+
+footer span.right-tail {
+    background-position: -18px 0;
+    right: -11px;
+}
 
 footer span.ribbon-inner a {
     font-family: Georgia, Times, "Times New Roman", serif;
