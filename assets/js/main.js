@@ -25,7 +25,7 @@ $(function() {
   //   event.preventDefault();
   // });
 
-  // sectionHeight();
+  sectionHeight();
 
   // $('img').on('load', sectionHeight);
 });
