@@ -70,7 +70,12 @@ body {
   text-decoration: none;
 }
 
-.ribbon-inner a:hover {
+footer .ribbon-inner a {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #83b7da;
+}
+
+footer .ribbon-inner a:hover {
   color: #ece4d8;
   text-decoration: none;
 }
