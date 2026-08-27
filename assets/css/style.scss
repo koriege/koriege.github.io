@@ -76,7 +76,10 @@ body {
   text-decoration: none;
 }
 
-
+footer span.ribbon-inner p {
+    white-space: nowrap;
+    padding: 10px 0px 10px;
+}
 
 footer span.ribbon-inner a {
     font-family: Georgia, Times, "Times New Roman", serif;
