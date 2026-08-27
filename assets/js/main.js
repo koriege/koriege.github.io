@@ -10,6 +10,7 @@ var sectionHeight = function() {
     $('section').height(total - smargin - fmargin - header - footer - 2);
   } else {
     $('section').css('height','auto');
+  }
 }
 
 $(window).resize(sectionHeight);
