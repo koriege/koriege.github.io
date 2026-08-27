@@ -5,7 +5,7 @@
 
 Text
 
-## Gentle Swing of Live
+## Gentle Swing of Life
 
 Text
 
