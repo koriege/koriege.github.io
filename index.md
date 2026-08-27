@@ -1,4 +1,4 @@
-<h1 id=dates class="header-level1" style="display:none">
+<h1 id=dates class="invisible" style="display:none">
   <a href=/dates.html>Dates</a>
 </h1>
 
