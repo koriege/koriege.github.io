@@ -1,13 +1,10 @@
 var sectionHeight = function() {
   var total    = $(window).height(),
+      header   = $('header span.inner').height(),
       $section = $('section').css('height','auto');
-
-  if ($section.outerHeight(true) < total) {
-    var margin = $section.outerHeight(true) - $section.height();
-    $section.height(total - margin - 171);
-  } else {
-    $section.css('height','auto');
-  }
+  var margin = $section.outerHeight(true) - $section.height();
+  
+  $section.height(total - margin - header);
 }
 
 $(window).resize(sectionHeight);
