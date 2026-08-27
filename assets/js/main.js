@@ -1,6 +1,6 @@
 var sectionHeight = function() {
   var total    = $(window).height(),
-      header   = $('header span.inner').height(),
+      header   = $('#no-downloads .inner').height(),
       $section = $('section').css('height','auto');
   var margin = $section.outerHeight(true) - $section.height();
   
