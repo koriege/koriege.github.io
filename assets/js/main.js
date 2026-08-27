@@ -4,15 +4,12 @@ var sectionHeight = function() {
       footer   = $('footer').height(),
       fmargin  = $('footer').outerHeight(true) - $('footer').height(),
       smargin   = $('section').outerHeight(true) - $('section').height();
-      // $section = $('section').css('height','auto');
 
-  $('section').css('height','auto');
   if ($('section').outerHeight(true) < total) {
     $('section').height(total - smargin - fmargin - header - footer - 2);
-  } 
-  // else {
-  //   $('section').css('height','auto');
-  // }
+  } else {
+    $('section').css('height','auto');
+  }
 }
 
 $(window).resize(sectionHeight);
