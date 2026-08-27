@@ -5,7 +5,7 @@ var sectionHeight = function() {
       fmargin  = $('footer').outerHeight(true) - $('footer').height(),
       smargin   = $('section').outerHeight(true) - $('section').height();
       // $section = $('section').css('height','auto');
-  $('section').height(total - smargin - fmargin - header - footer);
+  $('section').height(total - smargin - fmargin - header - footer - 1);
 }
 
 $(window).resize(sectionHeight);
