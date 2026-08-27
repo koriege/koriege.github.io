@@ -76,11 +76,16 @@ body {
   text-decoration: none;
 }
 
+footer span.ribbon-inner p {
+    white-space: nowrap;
+}
+
 footer span.ribbon-inner a {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-style: italic;
     text-transform: none;
     color: #e69b95;
+    display: inline;
 }
 
 footer span.ribbon-inner a:hover {
