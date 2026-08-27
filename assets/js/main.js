@@ -2,10 +2,10 @@ var sectionHeight = function() {
   var total    = $(window).height(),
       header   = $('#no-downloads').height(),
       footer   = $('footer').height(),
-      $section = $('section').css('height','auto');
-  var margin = $section.outerHeight(true) - $section.height();
-  
-  $section.height(total - margin - header - footer);
+      fmargin  = $('footer').outerHeight(true) - $('footer').height(),
+      smargin   = $('section').outerHeight(true) - $('section').height();
+      // $section = $('section').css('height','auto');
+  $('section').height(total - smargin - fmargin - header - footer);
 }
 
 $(window).resize(sectionHeight);
