@@ -31,5 +31,5 @@ $(function() {
 
   sectionHeight();
 
-  // $('img').on('load', sectionHeight);
+  $('img').on('load', sectionHeight);
 });
