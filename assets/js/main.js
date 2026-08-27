@@ -8,7 +8,8 @@ var sectionHeight = function() {
   
   if ($('section').outerHeight(true) < total) {
     $('section').height(total - smargin - fmargin - header - footer - 2);
-  }
+  } else {
+    $('section').css('height','auto');
 }
 
 $(window).resize(sectionHeight);
