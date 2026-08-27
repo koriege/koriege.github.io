@@ -25,7 +25,7 @@
 }
 
 #no-downloads a {
-    font: bold italic 16px / 1 Georgia, Times, “Times New Roman”, serif;
+    font: bold italic 16px / 1 Georgia, Times, "Times New Roman", serif;
     color: #83b7da;
     display: block;
 }
@@ -45,7 +45,7 @@ header h1 a:hover {
 }
 
 .header-level-1 {
-  font: bold italic 1.85em/1.2 Georgia, Times, “Times New Roman”, serif;
+  font: bold italic 1.85em/1.2 Georgia, Times, "Times New Roman", serif;
   border-bottom: .2em double #d3ccc1;
   color: #7c334f;
   text-align: center;
@@ -54,8 +54,9 @@ header h1 a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: “Times New Roman”, serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
+  font-style: italic;
 }
 
 a:hover {
