@@ -1,4 +1,5 @@
-<h1 class="invisible"><a href=/dates.html>Dates</a></h1>
+<h1 class="navigation"><a href=/dates.html>Dates</a></h1>
+<a class="navigation" href=/dates.html>Datess</a>
 
 # Hello
 
