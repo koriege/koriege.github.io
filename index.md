@@ -9,6 +9,8 @@ Text
 
 Text
 
+![Gentle Swing of Live](media/gsol.jpg)
+
 [Termine](termine.html)
 
 ## Alte Hüt'
