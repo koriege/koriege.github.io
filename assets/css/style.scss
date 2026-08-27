@@ -3,9 +3,20 @@
 
 @import "{{ site.theme }}";
 
-#no-downloads {
-  position: relative;
+header h1 a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #ece4d8;
 }
+
+header h1 a:hover {
+    color: #ece4d8;
+    text-decoration: none;
+}
+
+// #no-downloads {
+//   position: relative;
+// }
 
 #no-downloads ul {
   position: absolute;
@@ -35,13 +46,10 @@
     text-decoration: none;
 }
 
-header h1 a {
-    color: #ece4d8;
-}
-
-header h1 a:hover {
-    color: #ece4d8;
-    text-decoration: none;
+h1,h2,h3,h4,h5,h6 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .header-level-1 {
@@ -53,14 +61,14 @@ header h1 a:hover {
   padding-bottom: 10px
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
-  font-style: italic;
+body {
+  background: #ece4d8;
+  font: normal normal 30px/1.5 font-family: "Open Sans", serif;
+  color: #544943;
+  -webkit-font-smoothing: antialiased;
 }
 
 a:hover {
   color: #7c334f;
   text-decoration: none;
 }
-
