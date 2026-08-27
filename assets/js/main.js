@@ -1,10 +1,11 @@
 var sectionHeight = function() {
   var total    = $(window).height(),
-      header   = $('#no-downloads .inner').height(),
+      header   = $('#no-downloads').height(),
+      footer   = $('footer').height(),
       $section = $('section').css('height','auto');
   var margin = $section.outerHeight(true) - $section.height();
   
-  $section.height(total - margin - header);
+  $section.height(total - margin - header - footer);
 }
 
 $(window).resize(sectionHeight);
