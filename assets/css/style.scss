@@ -28,7 +28,7 @@ header h1 a:hover {
 
 #no-downloads li {
   padding-left: 10px;
-  background: transparent url(../images/chevron.png) left 3px no-repeat;
+  background: transparent url(../images/chevron.png) left 2px no-repeat;
 }
 
 #no-downloads a {
@@ -72,6 +72,8 @@ body {
 
 footer span.ribbon-inner a {
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    text-transform: none;
     color: #e69b95;
 }
 
