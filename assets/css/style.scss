@@ -76,25 +76,12 @@ body {
   text-decoration: none;
 }
 
-footer span.left-tail, footer span.right-tail {
-    position: relative;
-    display: block;
-    width: 18px;
-    height: 29px;
-    background: transparent url(../images/small-ribbon-tail-sprite.png) 0 0 no-repeat;
-    position: absolute;
-    bottom: 5px;
-    z-index: 0;
-}
-
-footer span.left-tail {
-    background-position: 0 0;
-    left: -11px;
-}
-
-footer span.right-tail {
-    background-position: -18px 0;
-    right: -11px;
+footer {
+    background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;
+    padding-top: 0px;
+    margin: -94px auto 40px;
+    max-width: 560px;
+    text-align: center;
 }
 
 footer span.ribbon-inner a {
